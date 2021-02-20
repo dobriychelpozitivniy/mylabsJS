@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header-menu">
+    <div class="container">
+
+
+      <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+        <a href="./index.html" class="navbar-brand d-flex">
+          <picture>
+            <source srcset="./img/pngegg.webp" type="image/webp"><img class="logo" src="./img/pngegg.png" alt="">
+          </picture>
+        </a>
+
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+          <ul class="navbar-nav w-100 ">
+            <li class="nav-item">
+
+              <a type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">Корзина</a>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Оформить заказ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="./index.html">Главная</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Каталог
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-dark" href="./item1.html">Hoegaarden</a>
+                <a class="dropdown-item text-dark" href="./item2.html">Guinness</a>
+                <a class="dropdown-item text-dark" href="./item3.html">Hoegaarden2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text-dark" href="./catalog.html">Перейти в каталог</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./contacts.html">Контакты</a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <hr>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <h1>Пивопуз</h1>
+      <h3>Живот не от пива, живот для пива.</h3>
+      <table class="main-table">
+        <tr class="height">
+          <td rowspan="3"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <th colspan="3"></th>
+        <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <hr>
+      <div>&copy; Все права защищены</div>
+    </div>
+  </div>
+  </div>
+  <script src="./js/modal.js"></script>
+</body>
+
+</html>
